@@ -1,5 +1,17 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 # Math magicians app
 If you like Math and problem solving then this website is for you. Math-magicians app is a SPA(single-page-app)built with React.js It allows users to solve different problems use the in-built calculator and get motivated by the quotes popping up in there.
+
+# Screenshot
+![image](https://user-images.githubusercontent.com/90222110/153878760-04495b3e-61ef-46fc-9b70-64fdd4ada197.png)
+
+# Built with
+- React.js
+- HTML
+- CSS
+
+# Other tools
+- Webpack and Babel compiler
 
 
 # Getting Started with Create React App
@@ -52,3 +64,25 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Authors
+
+👤 **Bertrand Mutangana Ishimwe**
+
+- GitHub: [Bertrand Mutangana Ishimwe](https://github.com/BertrandConxy)
+- Twitter: [Bertrand Mutangana Ishimwe](https://twitter.com/BertrandMutanga)
+- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/BertrandConxy/Math-magicians-app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to everyone who helped  me.
