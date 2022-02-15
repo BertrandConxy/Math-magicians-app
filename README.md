@@ -3,7 +3,8 @@
 If you like Math and problem solving then this website is for you. Math-magicians app is a SPA(single-page-app)built with React.js It allows users to solve different problems use the in-built calculator and get motivated by the quotes popping up in there.
 
 # Screenshot
-![image](https://user-images.githubusercontent.com/90222110/153878760-04495b3e-61ef-46fc-9b70-64fdd4ada197.png)
+![Screenshot (25)](https://user-images.githubusercontent.com/90222110/154003217-c241efc5-e25d-445d-b595-3eb0addc12ad.png)
+
 
 # Built with
 - React.js
