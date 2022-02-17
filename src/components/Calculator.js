@@ -29,7 +29,7 @@ export default class Calculator extends Component {
   render() {
     return (
       <div className="Calc-container">
-        <div className="display-result">{(this.state.next) ? this.state.next : this.state.total}</div>
+        <div className="display-result">{this.state.next || this.state.total || '0'}</div>
         <button type="button" id="AC" className="clear pad" onClick={this.clickHandler}>AC</button>
         <button type="button" id="+/-" className="sign pad" onClick={this.clickHandler}>+/-</button>
         <button type="button" id="%" className="modular pad" onClick={this.clickHandler}>%</button>
