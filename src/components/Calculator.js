@@ -39,6 +39,7 @@ const Calculator = () => {
       <button type="button" id="3" className="three pad" onClick={clickHandler}>3</button>
       <button type="button" id="+" className="plus operator" onClick={clickHandler}>+</button>
       <button type="button" id="0" className="zero pad" onClick={clickHandler}>0</button>
+      <button type="button" id="." className="period pad" onClick={clickHandler}>.</button>
       <button type="button" id="=" className="equal operator" onClick={clickHandler}>=</button>
     </div>
   );

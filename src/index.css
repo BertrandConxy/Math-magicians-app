@@ -37,11 +37,12 @@ button:active {
   display: flex;
   justify-content: flex-end;
   cursor: auto;
+  box-shadow: 2px -3px 2px #0f0f11;
 }
 
 .zero {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
   cursor: pointer;
 }
 
