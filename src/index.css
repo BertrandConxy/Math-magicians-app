@@ -9,6 +9,17 @@ body {
   width: 100vw;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  padding: 20px;
+  box-shadow: 2px -3px 2px #0f0f11;
+}
+
+button:active {
+  box-shadow: -2px 2px 2px 2px #343435 inset;
+}
+
 .Calc-container {
   display: grid;
   grid-template-columns: auto auto auto auto;

@@ -1,29 +1,53 @@
+/* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
+import calculate from './logic/calculate';
 
 export default class Calculator extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      total: '0',
+      next: '',
+      operation: '',
+    };
+
+    this.clickHandler = this.clickHandler.bind(this);
+  }
+
+  clickHandler(e) {
+    const buttonName = e.target.id;
+    const { total, next, operation } = calculate(this.state, buttonName);
+    if (next === null && total === null) {
+      this.setState({ next, total: '0', operation });
+    } else {
+      this.setState({ next, total, operation });
+    }
+  }
+
   render() {
     return (
       <div className="Calc-container">
-        <div className="display-result">0</div>
-        <div className="clear pad">AC</div>
-        <div className="sign pad">+/-</div>
-        <div className="modular pad">%</div>
-        <div className="div operator">/</div>
-        <div className="seven pad">7</div>
-        <div className="eight pad">8</div>
-        <div className="nine pad">9</div>
-        <div className="mult operator">x</div>
-        <div className="four pad">4</div>
-        <div className="five pad">5</div>
-        <div className="six pad">6</div>
-        <div className="sub operator">-</div>
-        <div className="one pad">1</div>
-        <div className="two pad">2</div>
-        <div className="three pad">3</div>
-        <div className="plus operator">+</div>
-        <div className="zero pad">0</div>
-        <div className="equal operator">=</div>
+        <div className="display-result">{this.state.next || this.state.total || '0'}</div>
+        <button type="button" id="AC" className="clear pad" onClick={this.clickHandler}>AC</button>
+        <button type="button" id="+/-" className="sign pad" onClick={this.clickHandler}>+/-</button>
+        <button type="button" id="%" className="modular pad" onClick={this.clickHandler}>%</button>
+        <button type="button" id="÷" className="div operator" onClick={this.clickHandler}>÷</button>
+        <button type="button" id="7" className="seven pad" onClick={this.clickHandler}>7</button>
+        <button type="button" id="8" className="eight pad" onClick={this.clickHandler}>8</button>
+        <button type="button" id="9" className="nine pad" onClick={this.clickHandler}>9</button>
+        <button type="button" id="x" className="mult operator" onClick={this.clickHandler}>x</button>
+        <button type="button" id="4" className="four pad" onClick={this.clickHandler}>4</button>
+        <button type="button" id="5" className="five pad" onClick={this.clickHandler}>5</button>
+        <button type="button" id="6" className="six pad" onClick={this.clickHandler}>6</button>
+        <button type="button" id="-" className="sub operator" onClick={this.clickHandler}>-</button>
+        <button type="button" id="1" className="one pad" onClick={this.clickHandler}>1</button>
+        <button type="button" id="2" className="two pad" onClick={this.clickHandler}>2</button>
+        <button type="button" id="3" className="three pad" onClick={this.clickHandler}>3</button>
+        <button type="button" id="+" className="plus operator" onClick={this.clickHandler}>+</button>
+        <button type="button" id="0" className="zero pad" onClick={this.clickHandler}>0</button>
+        <button type="button" id="=" className="equal operator" onClick={this.clickHandler}>=</button>
       </div>
     );
   }
