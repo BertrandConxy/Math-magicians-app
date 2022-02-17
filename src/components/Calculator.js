@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
 
@@ -20,7 +21,7 @@ const Calculator = () => {
 
   return (
     <div className="Calc-container">
-      <div className="display-result">{(state.next) ? state.next : state.total}</div>
+      <div className="display-result">{state.next || state.total || '0'}</div>
       <button type="button" id="AC" className="clear pad" onClick={clickHandler}>AC</button>
       <button type="button" id="+/-" className="sign pad" onClick={clickHandler}>+/-</button>
       <button type="button" id="%" className="modular pad" onClick={clickHandler}>%</button>
