@@ -1,6 +1,3 @@
-/* eslint-disable consistent-return */
-/* eslint-disable array-callback-return */
-
 import React from 'react';
 
 const Quote = () => {
@@ -41,6 +38,7 @@ const Quote = () => {
             </p>
           );
         }
+        return false;
       })}
     </div>
   );
