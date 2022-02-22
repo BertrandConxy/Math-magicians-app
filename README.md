@@ -7,6 +7,10 @@ If you like Math and problem solving then this website is for you. Math-magician
 ![Screenshot (30)](https://user-images.githubusercontent.com/90222110/155166161-8bd5d4e3-0e4c-4863-a601-303d8e62df5d.png)
 ![Screenshot (31)](https://user-images.githubusercontent.com/90222110/155166185-de0b9f5f-8eb0-4343-a08a-110c9c83a950.png)
 
+# Live Demo
+
+[Math magician app](https://mathmagician123.netlify.app)
+
 
 # Built with
 - React.js
