@@ -12,7 +12,7 @@ const Quote = () => {
     },
     {
       id: 2,
-      quote: 'Mathematics is about practice. The more yoyu work, the more you discover',
+      quote: 'Mathematics is about practice. The more you work, the more you discover',
       author: 'Berry allen',
     },
     {
@@ -23,19 +23,21 @@ const Quote = () => {
     {
       id: 4,
       quote: 'If you could measure the capacity of thinking of the person, use Mathematics',
-      author: 'Donard Phill1',
+      author: 'Donard Phill',
     },
   ];
   const random = Math.floor(Math.random() * 4) + 1;
   return (
-    <div>
+    <div className="quote-container">
       {Quotes.map((Quote) => {
         if (Quote.id === random) {
           return (
-            <p>
+            <p className="quote-text">
+              &quot;
               {Quote.quote}
-              --
-              {Quote.author}
+              &quot;
+              ~
+              <span className="author">{Quote.author}</span>
             </p>
           );
         }

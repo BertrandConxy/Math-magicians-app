@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home = () => (
   <>
-    <h2>Welcome to our page!</h2>
-    <p>
+    <h2 className="heading">Welcome to our page!</h2>
+    <p className="text">
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta sunt,
@@ -17,7 +17,7 @@ const Home = () => (
       Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse,
       quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat,
     </p>
-    <p>
+    <p className="text">
       But I must explain to you how all this mistaken idea of denouncing of a
       pleasure and praising pain was born and I will give you a complete account
       of the system, and expound the actual teachings of the great explorer of
