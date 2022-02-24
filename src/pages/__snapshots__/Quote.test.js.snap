@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page renders properly renders properly 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="quote-text"
+        >
+          "
+          Mathematics is not about numbers, equations or algorithms, it is about understanding
+          " ~
+          <span
+            className="author"
+          >
+            William Paul
+          </span>
+        </p>,
+        false,
+        false,
+        false,
+      ],
+      "className": "quote-container",
+    },
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "\\"",
+            "Mathematics is not about numbers, equations or algorithms, it is about understanding",
+            "\\" ~",
+            <span
+              className="author"
+            >
+              William Paul
+            </span>,
+          ],
+          "className": "quote-text",
+        },
+        "rendered": Array [
+          "\\"",
+          "Mathematics is not about numbers, equations or algorithms, it is about understanding",
+          "\\" ~",
+          Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "William Paul",
+              "className": "author",
+            },
+            "rendered": Array [
+              "William Paul",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;
