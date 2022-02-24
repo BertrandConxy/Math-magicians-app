@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page renders properly renders properly 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <h2
+            className="math-text"
+          >
+            Let us do some Math!!
+          </h2>
+        </div>,
+        <Calculator />,
+      ],
+      "className": "wrapper",
+    },
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2
+            className="math-text"
+          >
+            Let us do some Math!!
+          </h2>,
+        },
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Let us do some Math!!",
+              "className": "math-text",
+            },
+            "rendered": Array [
+              "Let us do some Math!!",
+            ],
+            "type": "h2",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {},
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="display-result"
+                data-testid="display"
+              >
+                0
+              </div>,
+              <button
+                className="clear pad"
+                data-testid="AC"
+                id="AC"
+                onClick={[Function]}
+                type="button"
+              >
+                AC
+              </button>,
+              <button
+                className="sign pad"
+                id="+/-"
+                onClick={[Function]}
+                type="button"
+              >
+                +/-
+              </button>,
+              <button
+                className="modular pad"
+                id="%"
+                onClick={[Function]}
+                type="button"
+              >
+                %
+              </button>,
+              <button
+                className="div operator"
+                id="÷"
+                onClick={[Function]}
+                type="button"
+              >
+                ÷
+              </button>,
+              <button
+                className="seven pad"
+                data-testid="7"
+                id="7"
+                onClick={[Function]}
+                type="button"
+              >
+                7
+              </button>,
+              <button
+                className="eight pad"
+                data-testid="8"
+                id="8"
+                onClick={[Function]}
+                type="button"
+              >
+                8
+              </button>,
+              <button
+                className="nine pad"
+                id="9"
+                onClick={[Function]}
+                type="button"
+              >
+                9
+              </button>,
+              <button
+                className="mult operator"
+                id="x"
+                onClick={[Function]}
+                type="button"
+              >
+                x
+              </button>,
+              <button
+                className="four pad"
+                id="4"
+                onClick={[Function]}
+                type="button"
+              >
+                4
+              </button>,
+              <button
+                className="five pad"
+                id="5"
+                onClick={[Function]}
+                type="button"
+              >
+                5
+              </button>,
+              <button
+                className="six pad"
+                id="6"
+                onClick={[Function]}
+                type="button"
+              >
+                6
+              </button>,
+              <button
+                className="sub operator"
+                id="-"
+                onClick={[Function]}
+                type="button"
+              >
+                -
+              </button>,
+              <button
+                className="one pad"
+                id="1"
+                onClick={[Function]}
+                type="button"
+              >
+                1
+              </button>,
+              <button
+                className="two pad"
+                id="2"
+                onClick={[Function]}
+                type="button"
+              >
+                2
+              </button>,
+              <button
+                className="three pad"
+                id="3"
+                onClick={[Function]}
+                type="button"
+              >
+                3
+              </button>,
+              <button
+                className="plus operator"
+                data-testid="+"
+                id="+"
+                onClick={[Function]}
+                type="button"
+              >
+                +
+              </button>,
+              <button
+                className="zero pad"
+                id="0"
+                onClick={[Function]}
+                type="button"
+              >
+                0
+              </button>,
+              <button
+                className="period pad"
+                id="."
+                onClick={[Function]}
+                type="button"
+              >
+                .
+              </button>,
+              <button
+                className="equal operator"
+                data-testid="="
+                id="="
+                onClick={[Function]}
+                type="button"
+              >
+                =
+              </button>,
+            ],
+            "className": "Calc-container",
+          },
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "0",
+                "className": "display-result",
+                "data-testid": "display",
+              },
+              "rendered": Array [
+                "0",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "AC",
+                "className": "clear pad",
+                "data-testid": "AC",
+                "id": "AC",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "AC",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "+/-",
+                "className": "sign pad",
+                "id": "+/-",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "+/-",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "%",
+                "className": "modular pad",
+                "id": "%",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "%",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "÷",
+                "className": "div operator",
+                "id": "÷",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "÷",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "7",
+                "className": "seven pad",
+                "data-testid": "7",
+                "id": "7",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "7",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "8",
+                "className": "eight pad",
+                "data-testid": "8",
+                "id": "8",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "8",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "9",
+                "className": "nine pad",
+                "id": "9",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "9",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "x",
+                "className": "mult operator",
+                "id": "x",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "x",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "4",
+                "className": "four pad",
+                "id": "4",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "4",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "5",
+                "className": "five pad",
+                "id": "5",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "5",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "6",
+                "className": "six pad",
+                "id": "6",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "6",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "-",
+                "className": "sub operator",
+                "id": "-",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "-",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "1",
+                "className": "one pad",
+                "id": "1",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "1",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2",
+                "className": "two pad",
+                "id": "2",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "2",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "3",
+                "className": "three pad",
+                "id": "3",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "3",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "+",
+                "className": "plus operator",
+                "data-testid": "+",
+                "id": "+",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "+",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "0",
+                "className": "zero pad",
+                "id": "0",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "0",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": ".",
+                "className": "period pad",
+                "id": ".",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                ".",
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": "=",
+                "className": "equal operator",
+                "data-testid": "=",
+                "id": "=",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "rendered": Array [
+                "=",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;

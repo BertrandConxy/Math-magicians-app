@@ -80,6 +80,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Twitter: [Bertrand Mutangana Ishimwe](https://twitter.com/BertrandMutanga)
 - LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
 
+👤 **Josphat Nkonde**
+
+- GitHub: [@zairdon20](https://github.com/zairdon20)
+- Twitter: [@Josphat1](https://twitter.com/Josphat1)
+- LinkedIn: [@Josphat Nkonde](https://www.linkedin.com/in/josphat-nkonde-092510183/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -92,4 +98,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to everyone who helped  me.
+- Thanks to @Clinton for your support
+- Thanks to everyone who helped us.
