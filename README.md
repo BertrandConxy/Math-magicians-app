@@ -9,7 +9,8 @@ If you like Math and problem solving then this website is for you. Math-magician
 
 # Live Demo
 
-[Math magician app](https://mathmagician123.netlify.app)
+- [Math magician app hosted using Netlify](https://mathmagician123.netlify.app)
+- [Math magician app hosted using Heroku](https://mathmagician123.herokuapp.com/)
 
 
 # Built with
